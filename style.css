@@ -8,6 +8,7 @@ body{
 }
 
 p, li{
+    font-family: 'Architects Daughter', cursive;
     font-size: 16px;
 }
 
@@ -29,6 +30,7 @@ p, li{
 }
 
 .button-link{
+    color: #498FEB;
     text-decoration: none;
 }
 
