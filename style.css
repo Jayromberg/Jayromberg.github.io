@@ -2,4 +2,14 @@ body{
     font-size: 20px;
     background-color: #F7F8ED;
     font-family: 'Roboto', sans-serif;
+    color: rgb(41, 41, 41);
+    line-height: 25px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.title-style{
+    color: #498FEB;
 }
