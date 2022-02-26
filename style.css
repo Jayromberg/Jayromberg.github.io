@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-size: 20px;
     background-color: white;
@@ -6,26 +11,31 @@ body{
     letter-spacing: 1px;
 }
 
+#margem{
+    padding: 60px;
+}
+
 p, li{
-    font-family: 'Architects Daughter', cursive;
     font-size: 16px;
 }
 
 .title-style{
     font-weight: 500;
-    border: 1px solid black
+    line-height: 150px;
+    border: 1px solid black;
+    margin: 0px 100px;
 }
 
 .picture{
-    border-radius: 10%;
+    
 }
 
 .button{
+    margin: 20px;
     background-color: #333;
     color: white;
     text-decoration: none;
     line-height: 40px;
-    padding: 15px;
     border: 1px solid black;
 }
 
