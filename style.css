@@ -1,36 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    font-family: 'Abril Fatface', cursive;
     font-size: 20px;
-    background-color: #F7F8ED;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(41, 41, 41);
+    background-color: white;
+    color: #333;
     line-height: 25px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+#margem{
+    padding: 10px 600px;
+    text-align: center;
 }
 
 p, li{
-    font-family: 'Architects Daughter', cursive;
     font-size: 16px;
 }
 
-.title-style{
-    color: #498FEB;
-    font-weight: 500;
+.together{
+    display: inline-block;
+    margin: 0px 20px;
 }
 
-.picture{
-    border-radius: 10%;
+.title-style{
+    font-weight: 400;
+    line-height: 500px;
+    border: 1px solid black;
+    margin: 0px 80px;
 }
 
 .button{
-    background-color: #37D47B;
+    background-color: #333;
     color: white;
     text-decoration: none;
-    line-height: 40px;
+    line-height: 70px;
     padding: 8px;
+    border: 1px solid black;
 }
 
 .button-link{
-    color: #498FEB;
     text-decoration: none;
 }
 
