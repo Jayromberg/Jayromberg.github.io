@@ -4,11 +4,12 @@
 }
 
 body{
+    font-family: 'Abril Fatface', cursive;
     font-size: 20px;
     background-color: white;
     color: #333;
     line-height: 25px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 #margem{
@@ -20,18 +21,23 @@ p, li{
     font-size: 16px;
 }
 
+.together{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
 .title-style{
-    font-weight: 500;
-    line-height: 150px;
+    font-weight: 400;
+    line-height: 500px;
     border: 1px solid black;
-    margin: 0px 100px;
+    margin: 0px 80px;
 }
 
 .button{
     background-color: #333;
     color: white;
     text-decoration: none;
-    line-height: 50px;
+    line-height: 70px;
     padding: 8px;
     border: 1px solid black;
 }
