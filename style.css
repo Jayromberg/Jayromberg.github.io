@@ -1,8 +1,7 @@
 body{
     font-size: 20px;
-    background-color: #F7F8ED;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(41, 41, 41);
+    background-color: white;
+    color: #333;
     line-height: 25px;
     letter-spacing: 1px;
 }
@@ -13,8 +12,8 @@ p, li{
 }
 
 .title-style{
-    color: #498FEB;
     font-weight: 500;
+    border: 1px solid black
 }
 
 .picture{
@@ -22,15 +21,15 @@ p, li{
 }
 
 .button{
-    background-color: #37D47B;
+    background-color: #333;
     color: white;
     text-decoration: none;
     line-height: 40px;
-    padding: 8px;
+    padding: 15px;
+    border: 1px solid black;
 }
 
 .button-link{
-    color: #498FEB;
     text-decoration: none;
 }
 
