@@ -13,6 +13,11 @@ body{
     letter-spacing: 1px;
 }
 
+a{
+    text-decoration: none;
+    color: #333;
+}
+
 .margem{
     padding: 10px 520px;
     text-align: center;
@@ -33,7 +38,6 @@ body{
 .button{
     background-color: #333;
     color: white;
-    text-decoration: none;
     line-height: 70px;
     padding: 8px;
     border: 2px solid black;
@@ -43,7 +47,6 @@ body{
 .button-selected{
     background-color: rgb(97, 97, 97);
     color: white;
-    text-decoration: none;
     line-height: 70px;
     padding: 8px;
     border: 2px solid black;
@@ -65,4 +68,9 @@ body{
 
 #list{
     padding: 25px 200px;
+}
+
+#inspirations{
+    padding: 25px 0px;
+    line-height: 30px;
 }
