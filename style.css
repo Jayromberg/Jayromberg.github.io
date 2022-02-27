@@ -4,21 +4,23 @@
 }
 
 body{
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Syne Mono', monospace;
+    background-image: url("./images/textura-papel");
+    background-size: contain;
     font-size: 20px;
-    background-color: white;
     color: #333;
     line-height: 25px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
-#margem{
-    padding: 10px 600px;
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.margem{
+    padding: 10px 520px;
     text-align: center;
-}
-
-p, li{
-    font-size: 16px;
 }
 
 .together{
@@ -28,7 +30,7 @@ p, li{
 
 .title-style{
     font-weight: 400;
-    line-height: 500px;
+    line-height: 240px;
     border: 1px solid black;
     margin: 0px 80px;
 }
@@ -36,21 +38,49 @@ p, li{
 .button{
     background-color: #333;
     color: white;
-    text-decoration: none;
     line-height: 70px;
     padding: 8px;
+    border: 2px solid black;
+    
+}
+
+.button-selected{
+    background-color: rgb(97, 97, 97);
+    color: white;
+    line-height: 70px;
+    padding: 8px;
+    border: 2px solid black;
+}
+
+#main{
     border: 1px solid black;
+    margin: 0px 80px;
+    padding: 20px;
 }
 
-.button-link{
-    text-decoration: none;
+#main-left{
+    float: left;
 }
 
-.very{
-    font-size: 20px;
-    font-weight: 500;
+#main-right{
+    float: right;
 }
 
-.different{
-    font-size: 18px;
+#list{
+    padding: 25px 200px;
+}
+
+#inspirations{
+    padding: 25px;
+    line-height: 30px;
+}
+
+#icons{
+    padding: 25px;
+    line-height: 30px;
+    margin: 35px;
+}
+
+#icons-centralize{
+    padding: 0px 0px;
 }
