@@ -62,3 +62,7 @@ body{
 #main-right{
     float: right;
 }
+
+#list{
+    padding: 25px 200px;
+}
