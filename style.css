@@ -14,7 +14,7 @@ body{
 }
 
 .margem{
-    padding: 10px 600px;
+    padding: 10px 520px;
     text-align: center;
 }
 
@@ -36,5 +36,15 @@ body{
     text-decoration: none;
     line-height: 70px;
     padding: 8px;
-    border: 1px solid black;
+    border: 2px solid black;
+    
+}
+
+.button-selected{
+    background-color: rgb(97, 97, 97);
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 8px;
+    border: 2px solid black;
 }
