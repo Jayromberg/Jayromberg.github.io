@@ -4,82 +4,135 @@
 }
 
 body{
-    font-family: 'Syne Mono', monospace;
-    background-image: url("./images/textura-papel");
-    background-size: contain;
-    font-size: 20px;
-    color: #333;
-    line-height: 25px;
+    background-color: rgb(253, 251, 251);
+    line-height: 20px;
     letter-spacing: 1px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(26, 26, 26);
+    text-align: center;
 }
 
 a{
     text-decoration: none;
-    color: #333;
+    color: rgb(26, 26, 26);
+    margin: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
 }
 
-.margem{
-    padding: 10px 520px;
-    text-align: center;
-}
-
-.together{
-    display: inline-block;
-    margin: 0px 20px;
-}
-
-.title-style{
-    font-weight: 400;
-    line-height: 240px;
-    border: 1px solid black;
-    margin: 0px 80px;
-}
-
-.button{
-    background-color: #333;
-    color: white;
-    line-height: 70px;
-    padding: 8px;
-    border: 2px solid black;
-    
-}
-
-.button-selected{
-    background-color: rgb(97, 97, 97);
-    color: white;
-    line-height: 70px;
-    padding: 8px;
-    border: 2px solid black;
-}
-
-#main{
-    border: 1px solid black;
-    margin: 0px 80px;
+h2{
     padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #0AC6A3;
 }
 
-#main-left{
-    float: left;
+#cabecalho{
+    position: fixed;
+    top: 0;
+    background-color: #0AC6A3;
+    width: 100%;
+    padding-top: 50px;
 }
 
-#main-right{
-    float: right;
+#titulo{
+    color: white;
+    font-size: 60px;
 }
 
-#list{
-    padding: 25px 200px;
+nav{
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
-#inspirations{
-    padding: 25px;
-    line-height: 30px;
+#cover{
+    width: 100%;
+    margin-top: 130px;
 }
 
-#adjust-title{
-    padding: 25px;
-    line-height: 30px;
+#lessons{
+    text-align: center;
+    margin: 20px;
 }
 
-#icons-centralize{
-    padding: 60px 260px;
+#lessons::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#minha_foto{
+    display: inline-block;
+    width: 16%;
+    text-align: justify;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-right: 5%;
+}
+
+#licoes_aprendidas{
+    display: inline-block;
+    width: 20%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#licoes_a_aprender{
+    display: inline-block;
+    width: 20%;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+/* O codigo para centralizar foi baseado na explicação do Marco Bruno 
+no deu artigo Pare de chutar e aprenda como funciona o display: inline-block. 
+https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-block-4e6cba2f19d4 */
+main{
+    margin: 20px;
+    text-align: justify;
+}
+
+.lado-esquerdo{
+    display: inline-block;
+    width: 50%;
+    text-align: justify;
+    margin-left: 5%;
+    vertical-align: middle;
+}
+
+.lado-direito{
+    display: inline-block;
+    width: 30%;
+    text-align: justify;
+    margin-right: 5%;
+    vertical-align: middle;
+}
+
+#text::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid #0AC6A3;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+}
+
+#rodape{
+    background-color: #0AC6A3;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+#network{
+    margin-bottom: 3%;
 }
